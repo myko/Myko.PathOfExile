@@ -1,0 +1,12 @@
+﻿Window "Myko.PathOfExile.FilterEditor.MainWindow" 
+{
+	Title: "My Title"
+
+	DockPanel { 
+		Menu { 
+			DockPanel.Dock: Top
+
+			MenuItem { Header: "File" }
+		}
+	}
+}

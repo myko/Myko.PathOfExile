@@ -1,0 +1,3 @@
+﻿Application "Myko.PathOfExile.FilterEditor.App" {
+  StartupUri: "MainWindow.g.xaml"
+}
