@@ -3,5 +3,10 @@
     <Menu DockPanel.Dock="Top">
       <MenuItem Header="File"/>
     </Menu>
+    <ListBox>
+      <ListBox.ItemsSource>
+        <Binding Path="Blocks"/>
+      </ListBox.ItemsSource>
+    </ListBox>
   </DockPanel>
 </Window>

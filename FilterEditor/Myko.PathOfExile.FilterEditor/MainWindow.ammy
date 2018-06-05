@@ -8,5 +8,8 @@
 
 			MenuItem { Header: "File" }
 		}
+
+		//TextBox { Margin: 11, Text: bind Text set [ UpdateSourceTrigger: PropertyChanged, Delay: 500 ] }
+		ListBox { ItemsSource: bind Blocks }
 	}
 }

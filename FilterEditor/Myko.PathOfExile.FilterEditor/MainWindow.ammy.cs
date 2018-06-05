@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Myko.PathOfExile.ItemFilters;
 
 namespace Myko.PathOfExile.FilterEditor
 {
@@ -12,7 +13,7 @@ namespace Myko.PathOfExile.FilterEditor
         {
             InitializeComponent();
 
-            DataContext = this;
+            DataContext = new ItemFilter("default.filter");
         }
     }
 }

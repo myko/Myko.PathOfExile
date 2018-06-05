@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterEditor", "FilterEditor\FilterEditor.csproj", "{1A3E7FB2-FEBE-41E7-BF12-118C900C0D18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myko.PathOfExile.ItemFilters", "Myko.PathOfExile.ItemFilters\Myko.PathOfExile.ItemFilters.csproj", "{D36335C1-BA21-46BF-8B5B-E994C3F10F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myko.PathOfExile.FilterEditor", "Myko.PathOfExile.FilterEditor\Myko.PathOfExile.FilterEditor.csproj", "{1A3E7FB2-FEBE-41E7-BF12-118C900C0D18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D36335C1-BA21-46BF-8B5B-E994C3F10F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36335C1-BA21-46BF-8B5B-E994C3F10F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36335C1-BA21-46BF-8B5B-E994C3F10F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36335C1-BA21-46BF-8B5B-E994C3F10F28}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A3E7FB2-FEBE-41E7-BF12-118C900C0D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A3E7FB2-FEBE-41E7-BF12-118C900C0D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A3E7FB2-FEBE-41E7-BF12-118C900C0D18}.Release|Any CPU.ActiveCfg = Release|Any CPU

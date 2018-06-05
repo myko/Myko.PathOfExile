@@ -89,6 +89,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="App.ammy" />
+    <None Include="default.filter">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="lib.ammy" />
     <None Include="MainWindow.ammy" />
     <None Include="packages.config" />
@@ -102,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Myko.PathOfExile.ItemFilters\Myko.PathOfExile.ItemFilters.csproj">
+      <Project>{d36335c1-ba21-46bf-8b5b-e994c3f10f28}</Project>
+      <Name>Myko.PathOfExile.ItemFilters</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.3.0.3\build\Fody.targets" Condition="Exists('..\packages\Fody.3.0.3\build\Fody.targets')" />
